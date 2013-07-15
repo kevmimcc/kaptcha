@@ -5,7 +5,6 @@ $(document).ready(function(){
 	test_string = get_test_string(first_number, second_number);
 	$("#txtMessage").after(test_string);
 	$("#contactform").submit(function(event){
-        //event.preventDefault();
 		submitForm(event);
 	});
 });
@@ -21,9 +20,7 @@ function get_test_string(first_number, second_number){
     return '<br />What is ' + first_number + ' + ' + second_number + '?: <input type="text" id="test_question" /><br />';
 }
 function check_test(true_answer, provided_answer, event){
-    //alert("True answer:" + true_answer + " Provided answer: " + provided_answer);
 	if(true_answer == provided_answer){
-        //alert("passed");
 		return true;
 	}
 	else {
