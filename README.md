@@ -9,3 +9,7 @@ post to the same destination that your form sends posts to.
 
 This lists a simple math question where the user is required to add two numbers that are randomly generated from 1 to 6.
 I thought adding numbers higher than 6 might be too difficult for some users, ;-)
+
+To use this, you will need to change the referencing ids and/or classes to match your form.
+
+Any improvement to this is welcomed!
